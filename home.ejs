@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Travel Planner</h1>
+        <form action="/submit" method="POST">
+            <div class="form-element">
+                <label for="departure">Departure Location:</label>
+                <input type="text" id="departure" name="departure" required>
+            </div>
+            <div class="form-element">
+                <label for="destination">Destination Location:</label>
+                <input type="text" id="destination" name="destination" required>
+            </div>
+            <div class="form-element">
+                <label for="fromDate">From Date:</label>
+                <input type="date" id="fromDate" name="fromDate" required>
+            </div>
+            <div class="form-element">
+                <label for="toDate">To Date:</label>
+                <input type="date" id="toDate" name="toDate" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
